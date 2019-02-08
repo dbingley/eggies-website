@@ -1,55 +1,78 @@
 body {
   /* font-family: 'Staatliches', cursive;*/
   font-family: 'Permanent Marker', cursive;
+  
+}
+
+.bg{
+    background-color:#04B486;
+}
+
+.full-height{
+    height:100%;
+}
+
+.piccol{
+    box-sizing:content-box;
+    width:600px;
+    height:400px;
+   
 }
 
 
 
-.notmarker {
-	font-family: 'Staatliches', cursive;
-}
+ .container {
+        position: relative;
+        width: 50%;
+    }
 
-.dropbtn:hover, .dropbtn:focus {
-    background-color:darkseagreen;
-}
+    .image {
+        display: block;
+        
+    }
 
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 410px;
+        width: 610px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #04B486;
+    }
+   
 
-.dropdown {
+    .container:hover .overlay {
+        opacity: 1;
+    }
 
-    position: relative;
-    display: inline;
-}
+    .text {
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:green;
-    min-width: 250px;
-    z-index: 1;
-}
-
-
-.dropdown-content a {
-    color: black;
-    padding: 10px 12px;
-    text-decoration: black;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: white}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 body {
   margin: 0;
   padding: 0;
-  background: #ccc;
+  background:#fff;
 }
  
 .nav ul {
   list-style: none;
-  background-color: #444;
+  background-color:#444;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -69,12 +92,12 @@ body {
 }
  
 .nav a:hover {
-  background-color: #005f5f;
+  background-color:#04B486;
 }
  
 .nav a.active {
-  background-color: #fff;
-  color: #444;
+  background-color:#fff;
+  color:#444;
   cursor: default;
 }
  
