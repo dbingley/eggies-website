@@ -1,11 +1,13 @@
 body {
   /* font-family: 'Staatliches', cursive;*/
   font-family: 'Permanent Marker', cursive;
+  font-family: 'Staatliches', cursive;
   
 }
 
 .bg{
     background-color:#04B486;
+    
 }
 
 .full-height{
@@ -19,6 +21,9 @@ body {
    
 }
 
+.ba {
+    border-color:#04B486;
+}
 
 
  .container {
