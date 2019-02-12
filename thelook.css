@@ -32,8 +32,8 @@ body {
     }
 
     .image {
-        display: block;
-        max-height:100%;
+       display:flex;
+        max-height:410px;
         max-width:100%;
         
     }
