@@ -42,8 +42,8 @@ body {
         bottom: 0;
         left: 0;
         right: 0;
-        height: 410px;
-        width: 610px;
+        max-height: 410px;
+        max-width: 610px;
         opacity: 0;
         transition: .5s ease;
         background-color: #04B486;
