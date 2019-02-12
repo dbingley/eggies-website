@@ -20,6 +20,12 @@ body {
     height:400px;
    
 }
+.responsive {
+  max-width: 100%;
+  
+  height: auto;
+}
+
 
 .ba {
     border-color:#04B486;
@@ -31,12 +37,7 @@ body {
         width: 50%;
     }
 
-    .image {
-        display:block;
-       max-height:410px;
-       max-width:610px;
-        
-    }
+    
 
     .overlay {
         position: absolute;
@@ -44,8 +45,9 @@ body {
         bottom: 0;
         left: 0;
         right: 0;
-        max-height: 410px;
-        max-width: 610px;
+        height:auto;
+        width:610px; 
+        
         opacity: 0;
         transition: .5s ease;
         background-color: #04B486;
